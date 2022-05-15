@@ -1,6 +1,4 @@
-# Comparative experiment of speed coordinated control methods based on D-S evidence synthesis theory
-
-Experimental steps and precautions
+# Comparative experiment of speed coordinated control methods based on D-S evidence synthesis theory: experimental steps and precautions
 
 ## Hardware:
 
@@ -134,27 +132,39 @@ Fig. E12. Execution process of step 3.
 
 Table 1
 Record program running time
-![image](https://user-images.githubusercontent.com/85392657/168476226-8193fc6b-c89b-434b-b61b-4d54fcb29f6e.png)
+
+The conrtol method used by the controllers|Elapsed time
+------------------------------|----------
+Cascade control               |8.696s
+Fuzzy control                 |156.973s
+Adaptive fuzzy control        |164.909s
+D-S evidence synthesis control|24.903s
 
 Through comparison, it is found that the algorithm complexity of cascade control is the lowest, and the algorithm complexity of D-S evidence synthesis theory control is much lower than that of fuzzy control and adaptive fuzzy control.
 
-#Possible errors and solutions：
+## Possible errors and solutions：
 
-Error 1: Error evaluating parameter ’Mass’ in ’XXX’ Undefined variable ”smiData” or class ”smiData.Solid”.
+### Error 1: 
+Error evaluating parameter ’Mass’ in ’XXX’ Undefined variable ”smiData” or class ”smiData.Solid”.
 
-Solution: Please re execute Step 1 and Step 2. Double click to load the file ’Advance_Data_arm.mat’, or enter the command ”load(’Advance_Data_arm.mat’)” at the command line window.
+### Solution: 
+Please re execute Step 1 and Step 2. Double click to load the file ’Advance_Data_arm.mat’, or enter the command ”load(’Advance_Data_arm.mat’)” at the command line window.
 
-Error 2: Invalid setting in ’XXX’ for parameter ’VariableName’.
+### Error 2: 
+Invalid setting in ’XXX’ for parameter ’VariableName’.
 
-Solution: Please re execute Step 1 and Step 2. Double click to load the file ’Advance_Data_arm.mat’, or enter the command “load(’Advance_Data_arm.mat’)” at the command line window.
+### Solution: 
+Please re execute Step 1 and Step 2. Double click to load the file ’Advance_Data_arm.mat’, or enter the command “load(’Advance_Data_arm.mat’)” at the command line window.
 
-Error 3: The program can run smoothly, but the manipulator cannot be observed in the simulation interface (Fig. E13).
+### Error 3: 
+The program can run smoothly, but the manipulator cannot be observed in the simulation interface (Fig. E13).
 
 ![image](https://user-images.githubusercontent.com/85392657/168476006-c8a90c77-ca61-44fc-940c-5dc53f23ab74.png)
 
 Fig. E13. Execution process of step 3.
 
-Solution: Model addressing error due to file movement. The solution is as follows:
+### Solution: 
+Model addressing error due to file movement. The solution is as follows:
 
 1)	Click the stop button marked in box 1 in Fig. E14 to end the program. 
 2)	Check whether the source code model file is missing. The model code file is shown in Fig. E15. 
@@ -171,7 +181,7 @@ Solution: Model addressing error due to file movement. The solution is as follow
 
 Fig. E14. The simulation platform for the continuous step task based on the adaptive fuzzy controller.
 
-![image](https://user-images.githubusercontent.com/85392657/168476325-1a5c6f55-4f19-4b20-b036-195f8b40d432.png)
+![image](https://user-images.githubusercontent.com/85392657/168479362-896aeea9-f63c-4b75-a951-01df0fa1f79d.png)
 
 Fig. E15. Files of the manipulator model.
 
