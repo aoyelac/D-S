@@ -19,7 +19,7 @@ Experimental steps and precautions
 
 ## Source file:
 
-There are 28 files in the source code of this experiment, showing the model file\source code \experimental time verification and experimental results. The specific file name and purpose are shown in Fig. E1.
+There are 28 files in the source code of this experiment, showing the model file\source code \experimental time verification and experimental results. The specific file name and purpose are shown in <font color=#0080AC>Fig. E1</font>.
 
 ![image](https://user-images.githubusercontent.com/85392657/168475424-f949145d-fb53-4f69-bbea-eaf4a8bc86bb.png)
 
@@ -27,7 +27,7 @@ Fig. E1. The specific file name and purpose of the source file.
 
 ## Experimental steps:
 
-Step 1: Change the program running path to the source code file
+### Step 1: Change the program running path to the source code file
 
 1)	Open MATLAB R2019a.
 2)	Click the button marked at 1 in red. 
@@ -38,7 +38,7 @@ Step 1: Change the program running path to the source code file
 
 Fig. E2. Execution process of step 1.
 
-Step 2: Loading data required for the experiment
+### Step 2: Loading data required for the experiment
 
 1)	After performing step 1, look for the file in Fig. E3 “Advance_Data_arm.mat” & “Advance_input_step.mat” marked at 2 in red. 
 2)	Double click the above file or enter the command shown in box 3 in the command line window “load (’Advance_Data_arm.mat’)” & “load (’Advance_input_step.mat’)”, then load the database.
@@ -54,7 +54,7 @@ II.	“Advance_input_step.mat” records the preset positions of the manipulator
 
 Fig. E3. Execution process of step 2.
 
-Step 3: Run Simulink to carry out the experiment of the ideal state space linear task.
+### Step 3: Run Simulink to carry out the experiment of the ideal state space linear task.
 
 1)	After executing step 2, click the Simulink button marked at 4 in Fig. E3 to prepare to run the Simulink program.
 2)	Run Simulink, as shown in Fig. E4. Click the open button to open the simulation program, and find the source code folder in the list “3-DOF Experiment”.
@@ -66,7 +66,7 @@ Fig. E4. Execution process of step 3.
 
 Next, taking the D-S evidence synthesis controller ideal state space linear task simulation platform as an example, the simulation operation method of the simulation platform is introduced.
 
-Step 4: Run the D-S evidence synthesis controller ideal state space linear task.
+### Step 4: Run the D-S evidence synthesis controller ideal state space linear task.
 
 1)	Click to run the code file “DS_linear_1.slx” marked in box 3.4 in Fig. E4. The Simulink simulation control platform of the spatial linear motion of the 3-DOF manipulator based on the D-S evidence synthesis controller shown in Fig. E5 is obtained.
 2)	Box 1 in Fig. E5 indicates the analytical formula of the spatial line. You can double-click the input box to change the analytical formula of the spatial line according to the task requirements.
@@ -87,7 +87,7 @@ Fig. E6. Experimental output error arrays.
 
 Fig. E7. Experimental output error arrays. 
 
-Step 5: Carry out the continuous step task experiment under extremely bad conditions
+### Step 5: Carry out the continuous step task experiment under extremely bad conditions
 
 The experiment simulates the extreme bad situation of serious failure and packet loss and disorder of sequence for a long time under the condition of large time delay of teleoperation. We preset that there is no protection mechanism of packet loss and disorder of sequence for the manipulator at this time. Under this input condition, the speed and acceleration of the ideal manipulator are infinite. By comparing the speed and acceleration under the control of different controllers, the adaptability of different controllers is obtained. The smaller the speed and acceleration are, the larger the adaptive range of the controller, that is, the better its adaptability. 
 
@@ -117,7 +117,7 @@ Fig. E10. Experimental output error arrays after running the code file “DS_ste
 
 Fig. E11. Experimental output error arrays after running Step 5.
 
-Step 6: Record program running time
+### Step 6: Record program running time
 
 The running time here is the time required to complete the space linear task simulation task on the Simulink simulation platform and does not represent the real control running time. However, because all files have the same architecture except for different controllers, they can represent the computational complexity between different controller algorithms to a certain extent.
 
