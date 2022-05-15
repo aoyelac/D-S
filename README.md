@@ -1,9 +1,8 @@
-# D-S
-Comparative experiment of speed coordinated control methods based on D-S evidence synthesis theory
+# Comparative experiment of speed coordinated control methods based on D-S evidence synthesis theory
 
 Experimental steps and precautions
 
-Hardware:
+## Hardware:
 
 1)	Computer: ASUS Desktop
 2)	Operating system: Windows 10 Professional Edition 64 bit (Build 19041)
@@ -12,13 +11,13 @@ Hardware:
 5)	Disk: WDC WDS100T2B0C-00PXH0 
 6)	Graphics card: Nvidia GeForce RTX 3060 (12 GB/ASUS )
 
-Software:
+## Software:
 
 1)	MATLAB: Version 9.6 (R2019a)
 2)	Simulink: Version 9.3 (R2019a)
 3)	Java: Java 1.8.0_181-b13 with Oracle Corporation Java Hot Spot (TM) 64-Bit Server VM mixed mode
 
-Source file:
+## Source file:
 
 There are 28 files in the source code of this experiment, showing the model file\source code \experimental time verification and experimental results. The specific file name and purpose are shown in Fig. E1.
 
@@ -26,7 +25,7 @@ There are 28 files in the source code of this experiment, showing the model file
 
 Fig. E1. The specific file name and purpose of the source file.
 
-Experimental steps:
+## Experimental steps:
 
 Step 1: Change the program running path to the source code file
 
