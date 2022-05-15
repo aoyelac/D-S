@@ -135,7 +135,7 @@ Fig. E12. Execution process of step 3.
 
 Table 1
 Record program running time
-![image](https://user-images.githubusercontent.com/85392657/168475952-e6996d42-f89b-46c9-9556-08835a827f60.png)
+![image](https://user-images.githubusercontent.com/85392657/168476226-8193fc6b-c89b-434b-b61b-4d54fcb29f6e.png)
 
 Through comparison, it is found that the algorithm complexity of cascade control is the lowest, and the algorithm complexity of D-S evidence synthesis theory control is much lower than that of fuzzy control and adaptive fuzzy control.
 
@@ -172,7 +172,7 @@ Solution: Model addressing error due to file movement. The solution is as follow
 
 Fig. E14. The simulation platform for the continuous step task based on the adaptive fuzzy controller.
 
-![image](https://user-images.githubusercontent.com/85392657/168476052-5f3e6d89-a23a-4647-b2fd-07996244ab90.png)
+![image](https://user-images.githubusercontent.com/85392657/168476325-1a5c6f55-4f19-4b20-b036-195f8b40d432.png)
 
 Fig. E15. Files of the manipulator model.
 
