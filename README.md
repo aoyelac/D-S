@@ -46,7 +46,7 @@ Fig. E2. Execution process of step 1.
 
   I.	“Advance_Data_arm.mat” records the parameters required by Simulink to build a three degree of freedom manipulator, including the centroid position of each component, moment of inertia, model color, position of each axis coordinate system and other information. After loading the database, the database information is stored in the simData for program operation. In addition, you can run “Advance_Data_arm.mat” to achieve the same result. 
 
-  II.	“Advance_input_step.mat” records the preset positions of the manipulator in the X, y and Z directions within 5 s during the continuous step task, and participates in the continuous step experiment as the path input.
+  II.	“Advance_input_step.mat” records the preset positions of the manipulator in the X, Y and Z directions within 5 s during the continuous step task, and participates in the continuous step experiment as the path input.
 
 ![image](https://user-images.githubusercontent.com/85392657/168475509-b0027dac-d130-45e1-be00-96395908eb30.png)
 
